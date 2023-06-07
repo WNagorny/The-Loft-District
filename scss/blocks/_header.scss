@@ -1,0 +1,42 @@
+.header {
+	background: linear-gradient(
+			180deg,
+			#242b33 11.98%,
+			rgba(45, 52, 60, 0.38) 51.04%,
+			#242b33 92.19%
+		),
+		url('../../assets/header/header-bg.jpg');
+
+	padding-top: 38px;
+	padding-bottom: 66px;
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		min-height: 840px;
+	}
+}
+
+.header__top-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__middle {
+   position: relative;
+   height: 330px;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	text-align: center;
+   color: $accent;
+}
+
+.header__title-icon{
+   position: absolute;
+   height: 40px;
+   bottom: 70px;
+}
+

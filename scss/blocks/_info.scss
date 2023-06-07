@@ -1,0 +1,42 @@
+.header__bottom {
+	display: grid;
+   grid-template-columns: 1fr 1fr;
+	gap: 80px;
+}
+
+.info {
+	position: relative;
+	font-size: 18px;
+
+	&--map,
+	&--tel {
+		padding-left: 35px;
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 21px;
+			height: 21px;
+		}
+	}
+
+	&--tel::before {
+		background-image: url('../../assets//header/phone-call.svg');
+	}
+	&--map::before {
+		background-image: url('../../assets//header/map.svg');
+	}
+
+}
+
+.text-left{
+   text-align: right;
+   // background-color: green;
+}
+
+.text-right{
+   text-align-last: left;
+   // background-color: red;
+}

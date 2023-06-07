@@ -95,4 +95,89 @@ a {
 }
 a:hover {
   color: #D4C17F;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1140px;
+}
+
+.header {
+  background: linear-gradient(180deg, #242b33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242b33 92.19%), url("../../assets/header/header-bg.jpg");
+  padding-top: 38px;
+  padding-bottom: 66px;
+}
+.header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 840px;
+}
+
+.header__top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__middle {
+  position: relative;
+  height: 330px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #D4C17F;
+}
+
+.header__title-icon {
+  position: absolute;
+  height: 40px;
+  bottom: 70px;
+}
+
+.nav {
+  font-size: 14px;
+}
+.nav__list {
+  display: flex;
+  gap: 40px;
+}
+
+.header__bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.info {
+  position: relative;
+  font-size: 18px;
+}
+.info--map, .info--tel {
+  padding-left: 35px;
+}
+.info--map::before, .info--tel::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 21px;
+  height: 21px;
+}
+.info--tel::before {
+  background-image: url("../../assets//header/phone-call.svg");
+}
+.info--map::before {
+  background-image: url("../../assets//header/map.svg");
+}
+
+.text-left {
+  text-align: right;
+}
+
+.text-right {
+  -moz-text-align-last: left;
+       text-align-last: left;
 }/*# sourceMappingURL=main.css.map */
