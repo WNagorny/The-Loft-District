@@ -100,7 +100,10 @@ a:hover {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  width: 1140px;
+  max-width: 1140px;
+}
+.container--sm {
+  max-width: 824px;
 }
 
 .header {
@@ -180,4 +183,26 @@ a:hover {
 .text-right {
   -moz-text-align-last: left;
        text-align-last: left;
+}
+
+.benefits {
+  padding: 120px 0;
+}
+
+.benefits__row {
+  display: flex;
+  gap: 70px;
+}
+
+.benefits__item {
+  text-align: center;
+}
+.benefits__item-img {
+  margin-bottom: 53px;
+}
+.benefits__item-text {
+  font-size: 20px;
+  line-height: 1.35;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }/*# sourceMappingURL=main.css.map */
