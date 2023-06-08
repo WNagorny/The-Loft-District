@@ -2,27 +2,37 @@
 
 body {
 	font-family: $font-main;
-   background-color: $background;
-   color: $secondary-text;
-   font-size: 16px;
+	background-color: $background;
+	color: $secondary-text;
+	font-size: 16px;
 }
 
-a{
-   color: $secondary-text;
-   transition: color 0.2s ease in;
+a {
+	color: $secondary-text;
+	transition: color 0.2s ease in;
 
-   &:hover{
-      color: $accent;
-   }
+	&:hover {
+		color: $accent;
+	}
 }
 
-.container{
-   margin: 0 auto;
-   padding: 0 15px;
-   max-width: 1140px;
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1140px;
 
-   &--sm{
-      max-width: 824px;
-   }
+	&--sm {
+		max-width: 824px;
+	}
 }
 
+.none {
+	display: none !important;
+}
+
+.title-2 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+   color: $accent;
+}
