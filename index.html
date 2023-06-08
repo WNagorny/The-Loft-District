@@ -12,8 +12,9 @@
 
 <body>
 
+   <!--  HEADER-->
 
-   <header class="header none">
+   <header class="header ">
       <div class="container">
          <div class="header__content">
             <div class="header__top">
@@ -25,9 +26,10 @@
                      <nav class="nav">
                         <ul class="nav__list">
                            <li><a href="#">The Complex</a></li>
-                           <li><a href="#">The Complex</a></li>
-                           <li><a href="#">The Complex</a></li>
-                           <li><a href="#">The Complex</a></li>
+                           <li><a href="#">District</a></li>
+                           <li><a href="#">Apartment catalog</a></li>
+                           <li><a href="#">Mortgage loan</a></li>
+                           <li><a href="#">Contact</a></li>
                         </ul>
                      </nav>
                   </div>
@@ -47,7 +49,7 @@
 
             <div class="header__bottom">
                <div class="text-left">
-                  <a href="#map" class="info info--map"> Rue Rasson 11</a>
+                  <a href="#map" class="info info--map"> Rue Rasson 1</a>
                </div>
 
                <div class="text-right">
@@ -59,8 +61,11 @@
       </div>
    </header>
 
+   <!--  MAIN-->
 
    <main>
+      <!--  BENEFITS-->
+
       <section class="benefits" id="benefits">
          <div class="container container--sm">
             <div class="benefits__row">
@@ -95,6 +100,8 @@
          </div>
       </section>
 
+      <!--  APPARTMENTS-->
+
       <section class="appartments">
          <div class="container">
             <div class="appartments__title">
@@ -102,33 +109,66 @@
             </div>
 
             <div class="appartments__cards">
-                  <a href="#" class="card">
-                     <img src="./assets/apparts/olimp.jpg" class="card__img" alt="logo olimp">
+               <a href="#" class="card">
+                  <img src="./assets/apparts/olimp.jpg" class="card__img" alt="logo olimp">
 
-                     <h3 class="card__title">Пентхаус “Loft Олимп”</h3>
-                  </a>
-                  <a href="#" class="card">
-                     <img src="./assets/apparts/niceloft.jpg" class="card__img" alt="logo nice loft">
+                  <h3 class="card__title">Cityscape View</h3>
+               </a>
+               <a href="#" class="card">
+                  <img src="./assets/apparts/niceloft.jpg" class="card__img" alt="logo nice loft">
 
-                     <h3 class="card__title">Пентхаус “Loft Олимп”</h3>
-                  </a>
-                  <a href="#" class="card">
-                     <img src="./assets/apparts/loftstudio.jpg" class="card__img" alt="logo loft studio">
+                  <h3 class="card__title">Industrial Elegance</h3>
+               </a>
+               <a href="#" class="card">
+                  <img src="./assets/apparts/loftstudio.jpg" class="card__img" alt="logo loft studio">
 
-                     <h3 class="card__title">Пентхаус “Loft Олимп”</h3>
-                  </a>
-                  <a href="#" class="card">
-                     <img src="./assets/apparts/prestiż.jpg" class="card__img" alt="logo prestiż">
+                  <h3 class="card__title">Modern Heights</h3>
+               </a>
+               <a href="#" class="card">
+                  <img src="./assets/apparts/prestiż.jpg" class="card__img" alt="logo prestiż">
 
-                     <h3 class="card__title">Пентхаус “Loft Олимп”</h3>
-                  </a>
+                  <h3 class="card__title">Urban Loftscape</h3>
+               </a>
             </div>
          </div>
       </section>
 
+      <!--  CTA-->
+
+      <section class="cta">
+         <div class="container">
+            <div class="cta__title">
+               <h2 class="title-2">Are you interested in seeing?</h2>
+            </div>
+
+            <div class="cta__wrapper">
+               <div class="cta__text">
+                  <p>The Loft District – is a high-end residential project located in the city center, at Rue Rasson 1. The complex offers apartments ranging from 40 to 170 square meters. There will be three sections in the building, accommodating a total of 56 apartments</p>
+               </div>
+
+               
+                  <form class="form cta__form">
+                     <input type="text" class="form__input" placeholder="Your name">
+                     <input type="number" class="form__input" placeholder="Your phone">
+
+                     <p class="form__privacy">
+                        *We do not share your data with anyone
+                        And we do not store your phone number in the database.
+                     </p>
+                     <button type="submit" class="form__btn">Discover the district</button>
+                  </form>
+               
+
+            </div>
+         </div>
+      </section>
+
+
       
    </main>
 
+   <script src="./script.js"></script>
+
 </body>
 
-</html> 
+</html>
