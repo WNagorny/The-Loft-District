@@ -388,4 +388,17 @@ a:hover {
 .video__icon:hover {
   transform: translate(-50%, -50%) scale(1.1);
   filter: saturate(1.5);
+}
+
+.section-map {
+  padding: 180px 0;
+}
+
+.ection-map__title {
+  margin-bottom: 88px;
+}
+
+.map {
+  height: 358px;
+  background-color: #626262;
 }/*# sourceMappingURL=main.css.map */
