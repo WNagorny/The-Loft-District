@@ -1,0 +1,15 @@
+.contact {
+   padding-bottom: 180px;
+}
+
+.contact__title {
+   margin-bottom: 49px;
+}
+
+.contact__form {
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   column-gap: 35px;
+   align-items: center;
+}
+
