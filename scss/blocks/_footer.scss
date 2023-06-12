@@ -1,0 +1,45 @@
+.footer {
+   background-color: $footer-bg;
+   padding-top: 72px;
+   padding-bottom: 50px;
+   font-size: 14px;
+   letter-spacing: 0.05rem;
+}
+
+.footer__wrapper {
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   gap: 30px;
+}
+
+.footer__logo{
+   margin-top: -12px;
+}
+
+.footer-nav-list{
+   display: grid;
+   gap: 15px;
+}
+
+.footer__address{
+   display: grid;
+   gap: 20px;
+}
+
+.footer__address-icon{
+  display: flex;
+  column-gap: 22px;
+  align-items: center;
+  cursor: pointer;
+ 
+}
+
+.footer__address-icon li:hover img{
+  filter: brightness(40%) saturate(10%) invert(100%) sepia(40%) saturate(347%) hue-rotate(3deg) brightness(96%) contrast(140%);
+}
+
+.link-bold{
+   color: $accent;
+   font-weight: 700;
+}
+
