@@ -2,19 +2,13 @@
 	padding: 120px 0;
 	position: relative;
 
+	
+
 	&::after {
 		content: 'II';
-
-		position: absolute;
-		top: 0;
+		@include decorNumber();
 		left: calc(50% + 555px);
 		transform: translate(-50%, 0%);
-		line-height: 1.15;
-
-
-		opacity: 0.02;
-		font-size: 400px;
-		font-family: $font-accent;
 	}
 }
 

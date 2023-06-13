@@ -3,6 +3,12 @@
 @import './base/vars';
 @import './base/base';
 
+
+//Mixins
+
+@import './base/mixins';
+
+
 //Blocks
 
 @import './blocks/header';
@@ -15,3 +21,4 @@
 @import './blocks/map';
 @import './blocks/contact';
 @import './blocks/footer';
+

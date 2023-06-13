@@ -4,17 +4,9 @@
 
 	&::after {
 		content: 'IV';
-
-		position: absolute;
-		top: 0;
+		@include decorNumber();
 		left: calc(50% + 555px);
 		transform: translate(-50%, 0%);
-		line-height: 1.15;
-
-
-		opacity: 0.02;
-		font-size: 400px;
-		font-family: $font-accent;
 	}
 }
 
@@ -44,11 +36,11 @@
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-   transition: all 0.2s ease-in ;
+	transition: all 0.2s ease-in;
 
 	&:hover {
-      transform: translate(-50%, -50%) scale(1.1);
-      filter: saturate(1.5);
+		transform: translate(-50%, -50%) scale(1.1);
+		filter: saturate(1.5);
 	}
 }
 
