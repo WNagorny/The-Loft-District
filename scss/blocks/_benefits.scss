@@ -1,7 +1,21 @@
+.benefits {
+	padding: 120px 0;
+	position: relative;
 
-.benefits{
-   padding: 120px 0;
-   // background-color: red;
+	&::after {
+		content: 'II';
+
+		position: absolute;
+		top: 0;
+		left: calc(50% + 555px);
+		transform: translate(-50%, 0%);
+		line-height: 1.15;
+
+
+		opacity: 0.02;
+		font-size: 400px;
+		font-family: $font-accent;
+	}
 }
 
 .benefits__row {
@@ -18,8 +32,8 @@
 
 	&-text {
 		font-size: 20px;
-      line-height: 1.35;
-      font-family: $font-secondary;
-      font-weight: 300;
+		line-height: 1.35;
+		font-family: $font-secondary;
+		font-weight: 300;
 	}
 }
