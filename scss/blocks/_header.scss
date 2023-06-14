@@ -1,21 +1,19 @@
 .header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 840px;
+
+	padding-top: 30px;
+	padding-bottom: 74px;
+
 	background: linear-gradient(
 			180deg,
 			#242b33 11.98%,
 			rgba(45, 52, 60, 0.38) 51.04%,
 			#242b33 92.19%
 		),
-		url('../../assets/header/header-bg.jpg');
-
-	padding-top: 38px;
-	padding-bottom: 66px;
-
-	&__content {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		min-height: 840px;
-	}
+		url(../../assets//header/header-bg.jpg);
 }
 
 .header__top-row {
@@ -24,19 +22,67 @@
 	align-items: center;
 }
 
-.header__middle {
-   position: relative;
-   height: 330px;
-	font-weight: 700;
-	font-size: 48px;
-	line-height: 64px;
+.nav{
+	font-size: 14px;
+}
+
+.nav__list {
+	display: flex;
+	column-gap: 40px;
+}
+
+.header__title{
+	position: relative;
+	padding-bottom: 121px;
 	text-align: center;
-   color: $accent;
+	font-size: 48px;
+	color: $accent;
+	font-weight: 700;
+	// background-color: red;
 }
 
 .header__title-icon{
-   position: absolute;
-   height: 40px;
-   bottom: 70px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0%);
 }
 
+.header__footer {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 30px;
+}
+
+
+.info {
+	position: relative;
+	font-size: 18px;
+
+	&--map,
+	&--tel {
+		padding-left: 35px;
+
+		&::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 21px;
+			height: 21px;
+			background-repeat: no-repeat;
+		}
+	}
+
+	&--tel::before {
+		background-image: url('../../assets//header/phone-call.svg');
+	}
+	&--map::before {
+		background-image: url('../../assets//header/map.svg');
+	}
+
+}
+
+.text-right{
+    text-align:right;
+ }

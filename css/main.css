@@ -124,15 +124,13 @@ a:hover {
 }
 
 .header {
-  background: linear-gradient(180deg, #242b33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242b33 92.19%), url("../../assets/header/header-bg.jpg");
-  padding-top: 38px;
-  padding-bottom: 66px;
-}
-.header__content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 840px;
+  padding-top: 30px;
+  padding-bottom: 74px;
+  background: linear-gradient(180deg, #242b33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242b33 92.19%), url(../../assets//header/header-bg.jpg);
 }
 
 .header__top-row {
@@ -141,34 +139,36 @@ a:hover {
   align-items: center;
 }
 
-.header__middle {
+.nav {
+  font-size: 14px;
+}
+
+.nav__list {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+
+.header__title {
   position: relative;
-  height: 330px;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 64px;
+  padding-bottom: 121px;
   text-align: center;
+  font-size: 48px;
   color: #D4C17F;
+  font-weight: 700;
 }
 
 .header__title-icon {
   position: absolute;
-  height: 40px;
-  bottom: 70px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
 
-.nav {
-  font-size: 14px;
-}
-.nav__list {
-  display: flex;
-  gap: 40px;
-}
-
-.header__bottom {
+.header__footer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
 }
 
 .info {
@@ -185,6 +185,7 @@ a:hover {
   top: 0;
   width: 21px;
   height: 21px;
+  background-repeat: no-repeat;
 }
 .info--tel::before {
   background-image: url("../../assets//header/phone-call.svg");
@@ -193,13 +194,8 @@ a:hover {
   background-image: url("../../assets//header/map.svg");
 }
 
-.text-left {
-  text-align: right;
-}
-
 .text-right {
-  -moz-text-align-last: left;
-       text-align-last: left;
+  text-align: right;
 }
 
 .benefits {
