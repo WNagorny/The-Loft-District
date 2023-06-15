@@ -402,7 +402,6 @@ a:hover {
 
 .card {
   display: inline-block;
-  background-color: red;
   position: relative;
   overflow: hidden;
 }
@@ -454,6 +453,22 @@ a:hover {
   z-index: 8;
 }
 
+@media screen and (max-width: 959px) {
+  .title-2 {
+    font-size: 28px;
+  }
+  .apartments__title {
+    margin-bottom: 44px;
+  }
+  .apartments__cards {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  }
+  .card__title {
+    font-size: 20px;
+    left: 30px;
+    bottom: 30px;
+  }
+}
 .cta {
   padding: 180px 0;
   height: 560px;
