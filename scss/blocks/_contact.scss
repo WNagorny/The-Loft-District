@@ -9,7 +9,25 @@
 .contact__form {
    display: grid;
    grid-template-columns: repeat(4,1fr);
-   column-gap: 35px;
+   gap: 35px;
    align-items: center;
 }
 
+
+
+//////   MEDIA QUERIES /////
+
+@media screen and (max-width: 959px) {
+
+   .contact{
+      padding-bottom: 90px;
+   }
+
+   .contact__title{
+      margin-bottom: 19px;
+   }
+
+   .contact__form{
+      grid-template-columns: 1fr;
+   }
+}

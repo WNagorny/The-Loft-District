@@ -659,11 +659,21 @@ a:hover {
 .contact__form {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  -moz-column-gap: 35px;
-       column-gap: 35px;
+  gap: 35px;
   align-items: center;
 }
 
+@media screen and (max-width: 959px) {
+  .contact {
+    padding-bottom: 90px;
+  }
+  .contact__title {
+    margin-bottom: 19px;
+  }
+  .contact__form {
+    grid-template-columns: 1fr;
+  }
+}
 .footer {
   background-color: #2D343C;
   padding-top: 72px;
