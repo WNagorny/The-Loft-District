@@ -631,7 +631,7 @@ a:hover {
   z-index: -1;
 }
 
-.ection-map__title {
+.section-map__title {
   margin-bottom: 88px;
 }
 
@@ -640,6 +640,14 @@ a:hover {
   background-color: #626262;
 }
 
+@media screen and (max-width: 959px) {
+  .section-map__title {
+    margin-bottom: 44px;
+  }
+  .section-map {
+    padding: 90px 0;
+  }
+}
 .contact {
   padding-bottom: 180px;
 }

@@ -13,14 +13,29 @@
 	}
 }
 
-.ection-map__title {
+.section-map__title{
 	margin-bottom: 88px;
 }
 
-.ection-map__map {
+.section-map__map {
 }
 
 .map {
 	height: 358px;
 	background-color: #626262;
+}
+
+
+
+
+//////   MEDIA QUERIES /////
+
+@media screen and (max-width: 959px) {
+	.section-map__title{
+		margin-bottom:44px;
+	}
+
+	.section-map{
+		padding: 90px 0;
+	}
 }
