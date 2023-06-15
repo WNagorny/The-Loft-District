@@ -562,6 +562,7 @@ a:hover {
 .video {
   text-align: center;
   position: relative;
+  overflow: hidden;
 }
 .video::after {
   content: "IV";
@@ -605,6 +606,12 @@ a:hover {
   filter: saturate(1.5);
 }
 
+@media screen and (max-width: 959px) {
+  .video__icon {
+    width: 80px;
+    height: 80px;
+  }
+}
 .section-map {
   padding: 180px 0;
   position: relative;
