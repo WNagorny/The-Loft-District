@@ -537,6 +537,28 @@ a:hover {
   background-color: #cbb566;
 }
 
+@media screen and (max-width: 959px) {
+  .cta {
+    padding: 60px 0;
+  }
+  .cta__text {
+    font-size: 14px;
+  }
+  .cta__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .cta__form {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .form__privacy {
+    grid-row: 4/5;
+    width: 60%;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
 .video {
   text-align: center;
   position: relative;
