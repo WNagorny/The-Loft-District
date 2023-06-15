@@ -43,3 +43,26 @@
    font-weight: 700;
 }
 
+
+
+//////   MEDIA QUERIES /////
+
+@media screen and (max-width: 959px) {
+
+ .footer{
+   padding-top: 36px;
+   padding-bottom: 25px;
+   text-align: center;
+   
+ }
+
+ .footer__wrapper{
+   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+   gap: 40px 30px;
+ }
+
+ .footer__address-icon{
+   margin: 0 auto;
+ }
+
+}
