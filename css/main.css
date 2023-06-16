@@ -93,6 +93,7 @@ body {
   background-color: #242B33;
   color: #FFFFFF;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -640,6 +641,7 @@ a:hover {
   grid-template-columns: 1fr;
   height: 358px;
   background-color: #626262;
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 959px) {

@@ -6,7 +6,7 @@ const navIcon = document.querySelector('.nav-icon')
 const topRow = document.querySelector('.header__top-row')
 
 
-etInputs = () => {
+resetInputs = () => {
    cta_inputs.forEach(input => {
       input.value = "";
    });
@@ -24,4 +24,19 @@ const showMobileMenu = () => {
 
 cta_btn.addEventListener('click', resetInputs)
 navBtn.addEventListener('click', showMobileMenu)
+
+
+document.addEventListener('DOMContentLoaded', function() {
+   const sr = ScrollReveal({
+     distance: '120px',
+     duration: 2500,
+     delay: 300,
+     reset: true
+   });
+ 
+   sr.reveal('.header__title', { delay: 200, origin: 'top' });
+   sr.reveal('.left', { delay: 800, origin: 'left' });
+   sr.reveal('.right', { delay: 800, origin: 'right' });
+   sr.reveal('.map', { delay: 400, origin: 'bottom' });
+ });
 

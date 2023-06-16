@@ -2,6 +2,7 @@
 	padding: 180px 0;
 	position: relative;
 
+
 	&::before {
 		content: 'V';
 		@include decorNumber() ;
@@ -17,14 +18,14 @@
 	margin-bottom: 88px;
 }
 
+
 .map {
 	display: grid;
 	grid-template-columns: 1fr;
 	height: 358px;
 	background-color: #626262;
-
+	border-radius: 20px
 }
-
 
 
 
