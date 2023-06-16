@@ -5,6 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./libs/youtubeLightbox/youtubeLightbox.css">
    <link rel="stylesheet" href="./css/main.css">
    <title>LoftHouse</title>
 </head>
@@ -172,7 +173,7 @@
 
       <section class="video">
          <div class="container">
-            <a href="#" class="video__link">
+            <a href="https://www.youtube.com/watch?v=8Lmp1Ncaa7Y" data-youtubeLightbox target="_blank"  class="video__link">
                <img src="./assets/vid/vid-bg.jpg" class="video__img" alt="photo of appartment">
                <img src="./assets/vid/Vector.svg" class="video__icon" alt="play"></a>
          </div>
@@ -206,7 +207,7 @@
                   And we do not store your phone number in the database.
                </p>
                <input type="text" class="form__input" placeholder="Your name">
-               <input type="number" class="form__input" placeholder="Your phone">
+               <input type="number" class="form__input tel-input" placeholder="Your phone">
                <button type="submit" class="form__btn">Discover the district</button>
             </form>
 
@@ -266,6 +267,20 @@
          </div>
       </div>
    </footer>
+
+   <div id="youtubelightbox" class="youtubelightbox">
+      <div class="youtubelightbox__centeredchild">
+         <div class="youtubelightbox__videowrapper">
+            <div id="youtubelightboxPlayer"></div>
+         </div>
+      </div>
+   </div>
+
+
+   <script src="./libs/phoneMask/mask.js"></script>
+   <script src="./libs/phoneMask/mask_list.js"></script>
+
+   <script src="./libs/youtubeLightbox/youtubeLightbox.js"></script>
 
    <script src="./script.js"></script>
 

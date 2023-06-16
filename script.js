@@ -6,13 +6,11 @@ const navIcon = document.querySelector('.nav-icon')
 const topRow = document.querySelector('.header__top-row')
 
 
-const resetInputs = () => {
+etInputs = () => {
    cta_inputs.forEach(input => {
       input.value = "";
    });
 }
-
-
 
 
 const showMobileMenu = () => {
@@ -23,5 +21,7 @@ const showMobileMenu = () => {
 
 
 
+
 cta_btn.addEventListener('click', resetInputs)
 navBtn.addEventListener('click', showMobileMenu)
+
