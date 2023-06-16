@@ -636,6 +636,8 @@ a:hover {
 }
 
 .map {
+  display: grid;
+  grid-template-columns: 1fr;
   height: 358px;
   background-color: #626262;
 }
