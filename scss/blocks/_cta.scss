@@ -1,6 +1,7 @@
 .cta {
-	padding: 180px 0;
-	height: 560px;
+   padding-top: 100px;
+	height: 360px;
+   scroll-padding-top: -100px;
 	background: linear-gradient(
 			180deg,
 			$background 10.42%,
@@ -9,6 +10,7 @@
 		),
 		linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)),
 		url(../../assets/cta-bg/bg.jpg), #c4c4c4;
+      background-color: green;
 }
 
 .cta__title {

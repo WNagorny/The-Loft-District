@@ -8,7 +8,6 @@
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  scroll-padding-top: 180px;
 }
 
 *,
@@ -139,7 +138,7 @@ a:hover {
   justify-content: space-between;
   min-height: 840px;
   padding-top: 30px;
-  padding-bottom: 74px;
+  margin-bottom: 75px;
   background: linear-gradient(180deg, #242b33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242b33 92.19%), url(../../assets//header/header-bg.jpg);
 }
 
@@ -382,6 +381,7 @@ a:hover {
   }
 }
 .apartments {
+  padding: 100px 0;
   position: relative;
 }
 .apartments::before {
@@ -476,9 +476,11 @@ a:hover {
   }
 }
 .cta {
-  padding: 180px 0;
-  height: 560px;
+  padding-top: 100px;
+  height: 360px;
+  scroll-padding-top: -100px;
   background: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url(../../assets/cta-bg/bg.jpg), #c4c4c4;
+  background-color: green;
 }
 
 .cta__title {
@@ -569,6 +571,7 @@ a:hover {
   text-align: center;
   position: relative;
   overflow: hidden;
+  padding-bottom: 200px;
 }
 .video::after {
   content: "IV";
@@ -619,8 +622,9 @@ a:hover {
   }
 }
 .section-map {
-  padding: 180px 0;
+  padding-bottom: 100px;
   position: relative;
+  padding: 100px 0;
 }
 .section-map::before {
   content: "V";

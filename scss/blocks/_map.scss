@@ -1,8 +1,9 @@
 .section-map {
-	padding: 180px 0;
+	padding-bottom: 100px;
 	position: relative;
-
-
+	padding: 100px 0;;
+	
+	
 	&::before {
 		content: 'V';
 		@include decorNumber() ;
