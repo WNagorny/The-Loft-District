@@ -139,7 +139,7 @@ a:hover {
   min-height: 840px;
   padding-top: 30px;
   margin-bottom: 75px;
-  background: linear-gradient(180deg, #242b33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242b33 92.19%), url(../../assets//header/header-bg.jpg);
+  background: linear-gradient(180deg, #242b33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242b33 92.19%), url(../assets/header/header-bg.jpg);
 }
 
 .header__top-row {
@@ -227,10 +227,10 @@ a:hover {
   background-repeat: no-repeat;
 }
 .info--tel::before {
-  background-image: url("../../assets//header/phone-call.svg");
+  background-image: url("../assets//header/phone-call.svg");
 }
 .info--map::before {
-  background-image: url("../../assets//header/map.svg");
+  background-image: url("../assets//header/map.svg");
 }
 
 .text-right {
