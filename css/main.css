@@ -366,6 +366,9 @@ a:hover {
 }
 
 @media screen and (max-width: 999px) {
+  .benefits {
+    padding: 20px 0;
+  }
   .benefits__item-img {
     width: 60px;
     height: 60px;
@@ -460,6 +463,9 @@ a:hover {
 }
 
 @media screen and (max-width: 959px) {
+  .apartments {
+    padding: 50px 0;
+  }
   .title-2 {
     font-size: 28px;
   }
@@ -476,7 +482,7 @@ a:hover {
   }
 }
 .cta {
-  padding-top: 100px;
+  padding: 100px;
   height: 360px;
   scroll-padding-top: -100px;
   background: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url(../../assets/cta-bg/bg.jpg), #c4c4c4;
@@ -548,6 +554,7 @@ a:hover {
 @media screen and (max-width: 959px) {
   .cta {
     padding: 60px 0;
+    height: 100%;
   }
   .cta__text {
     font-size: 14px;
@@ -616,6 +623,9 @@ a:hover {
 }
 
 @media screen and (max-width: 959px) {
+  .video {
+    padding-bottom: 60px;
+  }
   .video__icon {
     width: 80px;
     height: 80px;
@@ -658,7 +668,7 @@ a:hover {
     margin-bottom: 44px;
   }
   .section-map {
-    padding: 90px 0;
+    padding: 10px 0;
   }
 }
 .contact {
@@ -678,7 +688,7 @@ a:hover {
 
 @media screen and (max-width: 959px) {
   .contact {
-    padding-bottom: 90px;
+    padding: 70px 0;
   }
   .contact__title {
     margin-bottom: 19px;

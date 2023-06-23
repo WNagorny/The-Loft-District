@@ -37,6 +37,10 @@
 //////   MEDIA QUERIES    //////
 
 @media screen and (max-width: 999px) {
+
+	.benefits{
+		padding: 20px 0;
+	}
 	.benefits__item-img{
 		width: 60px;
 		height: 60px;
