@@ -35,8 +35,8 @@ document.addEventListener('DOMContentLoaded', function() {
    });
  
    sr.reveal('.header__title', { delay: 200, origin: 'top' });
-   sr.reveal('.left', { delay: 800, origin: 'left' });
-   sr.reveal('.right', { delay: 800, origin: 'right' });
+   sr.reveal('.left', { delay: 400, origin: 'left' });
+   sr.reveal('.right', { delay: 400, origin: 'right' });
    sr.reveal('.map', { delay: 400, origin: 'bottom' });
  });
 

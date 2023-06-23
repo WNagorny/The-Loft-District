@@ -40,20 +40,6 @@ function onYouTubeIframeAPIReady() {
 	createlightbox();
 }
 
-// Extracts the Youtube video ID from a well formed Youtube URL
-function getyoutubeid(link) {
-	// Assumed Youtube URL formats
-	// https://www.youtube.com/watch?v=Pe0jFDPHkzo
-	// https://youtu.be/Pe0jFDPHkzo
-	// https://www.youtube.com/v/Pe0jFDPHkzo
-	// and more
-
-	//See http://stackoverflow.com/a/6904504/4360074
-	var youtubeidreg =
-		/(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/ ]{11})/i;
-	return youtubeidreg.exec(link)[1]; // return Youtube video ID portion of link
-}
-
 // Creates a new YT.Player() instance
 function createyoutubeplayer(videourl) {
 	player = new YT.Player('youtubelightboxPlayer', {
